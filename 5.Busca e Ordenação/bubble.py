@@ -21,7 +21,7 @@ def bubble1(l): # ordena a lista l por bubble sort
 def bubble2(l): # ordena a lista l por bubble sort
     for i in range(len(l)):
         trocou = False
-        for j in range (0, n-i-1):
+        for j in range (0, len(l)-i-1):
             if l[j] > l[j+1]:
                 troca(l, j, j+1)
                 trocou = True
