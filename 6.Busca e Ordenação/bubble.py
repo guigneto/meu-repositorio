@@ -30,11 +30,11 @@ def bubble2(l): # ordena a lista l por bubble sort
 
 def main(): 
     l = cria_lista(10000) # cria uma lista de tamanho 10000
-    print(f"->Lista Desordenada: {l}\n") 
-    time1 = time.time() 
-    print(f"->Lista Ordenada:{bubble1(l)}\n") 
-    time2 = time.time() 
-    print(f"Tempo: {time2 - time1:.2f} segundos\n") # imprime o tempo de execução
+    # print(f"->Lista Desordenada: {l}\n") 
+    # time1 = time.time() 
+    # print(f"->Lista Ordenada:{bubble1(l)}\n") 
+    # time2 = time.time() 
+    # print(f"Tempo: {time2 - time1:.2f} segundos\n") # imprime o tempo de execução
     return 0
 if __name__ == '__main__':
     main()  # chamada da função principal
