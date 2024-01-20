@@ -1,4 +1,4 @@
-def vogais(palavra):
+def identificaVogais(palavra):
     A = False
     E = False
     I = False
@@ -34,7 +34,7 @@ def vogais(palavra):
 def main():
 
     palavra = input("Palavra: ")
-    print (f'Vogais: {vogais(palavra)}')
+    print (f'Vogais: {identificaVogais(palavra)}')
     
     return 0
 main()
